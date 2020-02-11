@@ -1,0 +1,13 @@
+/venv
+/env
+/ils
+/test
+.vscode
+*.db
+test.*
+/__pycache__
+counts.json
+config.ini
+# ignore anything pdf, except for the /static_pdf dir and it's contents
+*.pdf
+!/static_pdf/*

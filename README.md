@@ -47,4 +47,4 @@ The following is done in this query: [purchase_order_temp_tables.sql](purchase_o
 
 1. Target the purchase orders we wish to produce, and store them in the temp table `temp_target_purchase_orders`:
 
-   * From the `temp_blanket_purchase_order_metadata` grab all the purchase orders where `last_order_record_updated` is greater than our last export date. (Is this correct? or do we want the created date)
+   * From the `temp_blanket_purchase_order_metadata` grab all the purchase orders where `last_order_record_updated` is greater than our last export date. (Is this correct? or do we want the created date?)
