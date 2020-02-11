@@ -32,7 +32,7 @@ __order record__: a record containing the following information (mostly defined 
 
 ### Steps
 
-The following is done in this query: `purchase_order_temp_tables.sql`:
+The following is done in this query: [purchase_order_temp_tables.sql](purchase_order_temp_tables.sql):
 
 1. Gather all order record data from the database (`temp_order_record`). For a final product of the "purchase order", we'll need to put all the orders on that document based on the "last updated" order record.
 
